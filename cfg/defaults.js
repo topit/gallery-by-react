@@ -30,7 +30,7 @@ function getDefaultModules() {
       },
       {
         test: /\.sass/,
-        loader: 'style-loader!css-loaderautoprefixer-loader?{browsers:["last 2 version"]}!sass-loader?outputStyle=expanded&indentedSyntax'
+        loader: 'style-loader!css-loader!autoprefixer-loader?{browsers:["last 2 version"]}!sass-loader?outputStyle=expanded&indentedSyntax'
       },
       {
         test: /\.scss/,
